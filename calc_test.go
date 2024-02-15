@@ -32,6 +32,14 @@ func TestMult(t *testing.T) {
 	}
 }
 
+func TestDiv(t *testing.T) {
+
+	result := div(10, 2)
+
+	if result != 5 {
+		t.Error("The result must be 5")
+	}
+}
 func TestMain(t *testing.T) {
 
 	result := 4
