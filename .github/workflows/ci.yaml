@@ -1,7 +1,7 @@
 name: ci-golang-sonarcloud
 on: 
-    pull_request:
-        - develop
+  pull_request:
+    - develop
 
 jobs:
   check-application:
