@@ -8,9 +8,8 @@ jobs:
   run-ci:
     runs-on: ubuntu-latest
     steps:
-    - users: actions/checkout@v2
-    - users: actions/setup-go@v2
-      with:
-        go-version: 1.15
-      - run go test -coverprofile=coverage.out
-      
+      - users: actions/checkout@v2
+      - users: actions/setup-go@v2
+        with:
+          go-version: 1.15
+        - run go test -coverprofile=coverage.out
