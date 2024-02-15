@@ -40,11 +40,3 @@ func TestDiv(t *testing.T) {
 		t.Error("The result must be 5")
 	}
 }
-func TestMain(t *testing.T) {
-
-	result := 4
-
-	if result != 4 {
-		t.Error("The result must be 4")
-	}
-}
